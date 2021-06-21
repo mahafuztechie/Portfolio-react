@@ -1,6 +1,6 @@
 import React from 'react'
 import Bar from './Bar'
-import { cssIcon, htmlIcon, javaIcon, javascriptIcon, reactIcon, reduxIcon, sqlIcon } from './Skillicons'
+import { cssIcon, htmlIcon, javaIcon, javascriptIcon, reactIcon, sqlIcon } from './Skillicons'
 
 function SkillsData() {
     const languages = [

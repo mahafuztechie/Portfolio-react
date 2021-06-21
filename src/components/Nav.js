@@ -4,10 +4,7 @@ import { Link } from "react-scroll"
 
 function Nav() {
     const [menu, setmenu] = useState(false)
-   const hideNavSlide = () => {
-       
-
-   }
+ 
    
     return (
                <div className="absolute flex lg:justify-around p-3 justify-between w-screen top:2">
@@ -25,24 +22,26 @@ function Nav() {
                 hover:text-use-yellow"><Link to="resume" smooth={true} duration={1000}>Resume</Link></li>
                  <li className="hover:cursor cursor-pointer
                 hover:text-use-yellow"><Link to="projects" smooth={true} duration={1000}>Projects</Link></li>
-                <li className="hover:cursor cursor-pointer
-                 w-28 text-center hover:text-use-yellow text-bold list-de"><a>Contact</a></li>
+                  <li className="hover:cursor cursor-pointer
+                hover:text-use-yellow"><Link to="contact" smooth={true} duration={1000}>Contact</Link></li>
                 </ul>  }
             {!menu && <MenuIcon onClick={() => setmenu(true)} className=" w-8 text-use-yellow lg:hidden cursor-pointer mr-2"/>}
-            {menu && <XIcon onClick={() => setmenu(false)} className=" w-8 text-use-yellow lg:hidden cursor-pointer mt-1"/>}
+            {menu && <XIcon onClick={() => setmenu(false)} className="absolute right-8 w-8 text-use-yellow lg:hidden cursor-pointer mt-1 z-50" />}
             </div>
           
-             {menu && <ul onClick={() => setmenu(false)} id="navslide" className="z-10 absolute flex flex-col items-center justify-around text-base 
-                uppercase w-screen h-screen bg-teal-500 top-0 right-0
-                opacity-100">
+             {menu && <ul onClick={() => setmenu(false)} id="navslide" className="z-10 absolute flex flex-col flex-grow items-center justify-around text-base 
+                uppercase w-screen h-96 bg-use-blue top-0 right-0">
                         {/* <li  className=" hover:cursor cursor-pointer
-                    text-teal-900"><Link to="home" smooth={true} duration={1000}>Home</Link></li> */}
+                    text-white"><Link to="home" smooth={true} duration={1000}>Home</Link></li> */}
                         <li  className=" hover:cursor cursor-pointer
-                    text-teal-900"><Link to="about" smooth={true} duration={1000}>About</Link></li>
+                    text-white"><Link to="about" smooth={true} duration={1000}>About</Link></li>
                         <li className=" hover:cursor cursor-pointer
-                    text-teal-900"><Link to="resume" smooth={true} duration={1000}>Resume</Link></li>
+                    text-white"><Link to="resume" smooth={true} duration={1000}>Resume</Link></li>
+                     <li className=" hover:cursor cursor-pointer
+                    text-white"><Link to="projects" smooth={true} duration={1000}>Projects</Link></li>
                         <li className=" hover:cursor cursor-pointer
-                    text-teal-900"><a>ContactMe</a></li>
+                    text-white"><Link to="contact" smooth={true} duration={1000}>Contact</Link></li>
+                     
                 </ul>}
         </div>
         

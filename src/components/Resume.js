@@ -1,12 +1,10 @@
 import React from 'react'
-import {AcademicCapIcon, CodeIcon, ChartBarIcon, HeartIcon} from "@heroicons/react/solid"
 import SkillsData from './SkillsData'
 import Interests from './Interests'
 import Education from './Education'
 import firebaseimg from "../images/firebase.png"
 import nextimg from "../images/next.png"
 import bootstrapimg from "../images/bootstrap.png"
-import tailwindimg from "../images/tailwind.svg"
 import OtherSkills from './OtherSkills'
 import Fade from 'react-reveal/Fade';
 
@@ -19,7 +17,7 @@ function Resume() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 h-full">
                 <Fade left>
                 <div className="text-xs md:text-xl  bg-yellow-100 bg-opacity-30 rounded-lg pb-2">
-                    <h1 className="text-use-blue p-2 lg:p-4 text-lg lg:text-xl font-bold">Education</h1>
+                    <h1 className="text-use-blue p-2 lg:p-4 text-lg lg:text-xl font-bold"><i class="fas fa-graduation-cap text-use-yellow mr-3"></i> Education</h1>
                     <div className="flex flex-col space-y-4 lg:space-y-8 font-medium pt-2 lg:mt-2 px-4">
                        <Education college="Teachers Academy Degree College" year="2015-2018"  batch="Bachelor of Computer Apllications (B.C.A)"/>
                        <Education college="Quwathul Islam Pre-University College" year="2013-2015"/>
@@ -29,7 +27,7 @@ function Resume() {
                 </Fade>
                 <Fade right>
                 <div className=" bg-yellow-100 bg-opacity-30 rounded-lg">
-                    <h1 className="text-use-blue p-2 lg:p-4 text-lg  lg:text-xl font-bold">Interests</h1>
+                    <h1 className="text-use-blue p-2 lg:p-4 text-lg  lg:text-xl font-bold"><i class="fas fa-palette text-use-yellow mr-3"></i>Interests</h1>
                     <div className="flex flex-col space-y-6 mt-2 px-4">
                        <Interests title="Browsing" content="lorem ipsum"/>
                        <Interests title="Music" content="lorem ipsum"/>
@@ -39,7 +37,7 @@ function Resume() {
                 </Fade>
                 <Fade bottom>
                 <div className=" bg-yellow-100 bg-opacity-30 h-64 rounded-lg lg:col-span-2 lg:mb-5">
-                    <h1 className="text-use-blue p-2 lg:p-4 text-lg lg:text-xl font-bold">Skills</h1>
+                    <h1 className="text-use-blue p-2 lg:p-4 text-lg lg:text-xl font-bold"><i class="fas fa-laptop-code text-use-yellow mr-3"></i>Skills</h1>
                         <SkillsData  />
                         <div className="hidden lg:flex items-center justify-center space-x-16 pt-4 border-t-4 border-use-blue">
                            <OtherSkills image={firebaseimg} name="Firebase"/>

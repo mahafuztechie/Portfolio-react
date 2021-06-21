@@ -7,7 +7,7 @@ function Education({college, year, batch}) {
                 <li>{college}</li>
                 <h2 className="text-black bg-use-yellow bg-opacity-70 rounded-full w-28 lg:w-28 text-center py-2 ">{year}</h2>
             </div>
-            <p className="text-xs font-extralight lg:text-sm text-use-yellow pl-2 lg:pl-8 lg:ml-5">{batch}</p>
+            <p className=" font-extralight text-sm text-use-yellow pl-2 lg:pl-8 lg:ml-5">{batch}</p>
         
         </div>
     )
