@@ -16,7 +16,7 @@ function Project({image, github, live, name, title, desc}) {
             </div>
             <div className="flex justify-between p-2">
                     <a href={github} rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600  w-7 h-7 transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-github"></i></a>
-                    {live && <a href={live} rel="noreferrer" target="_blank" className="hover:no-underline hover:text-use-blue uppercase text-center text-use-blue rounded-md p-1">live</a>}
+                    {live && <a href={live} rel="noreferrer" target="_blank" className="hover:no-underline uppercase text-center text-sm text-use-blue rounded-xl px-2 py-1 hover:bg-red-600 hover:text-white">live</a>}
             </div>
         </div>
     )

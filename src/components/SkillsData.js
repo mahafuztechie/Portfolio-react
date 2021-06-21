@@ -46,9 +46,9 @@ function SkillsData() {
         },
     ]
     return (
-        <div className="hidden lg:flex lg:space-x-10 items-start p-3 text-black">
+        <div className="hidden lg:flex lg:space-x-10 items-start p-3">
             {languages.map(language => 
-                <Bar className="" value={language} />
+                <Bar value={language} />
                 )}
         </div>
     )
