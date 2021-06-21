@@ -6,7 +6,7 @@ function ProjectData() {
         {
             name:"Amazon-clone",
             image: "https://www.doorwaysva.org/wp-content/uploads/2019/06/amazon-logo.png",
-            title: "Technologies used: React JS, Next-JS, Redux, Firebase & Tailwind-css",
+            title: "Technologies used: ReactJS, NextJS, Redux, Firebase & Tailwind-css",
             desc: "Amazon-clone website where a user can login with Google auth & buy products online with stripe payment system integration. Firebase used to store & maintain data",
             github: "https://github.com/mahafuztechie/amzn-clone",
             live: "https://amazonclone-theta.vercel.app"
@@ -14,7 +14,7 @@ function ProjectData() {
         {
             name:"Facebook-clone",
             image: "https://www.startuplagos.co/wp-content/uploads/2018/05/facebooklogo-3.jpg",
-            title: "Technologies used: React JS, Next-JS, Firebase & Tailwind-css",
+            title: "Technologies used: ReactJS, NextJS, Firebase & Tailwind-css",
             desc: "A simple Facebook clone where a user can login with facebook auth & share a post about whats going in life. firebase, to store data",
             github: "https://github.com/mahafuztechie/fbclone",
             live: "https://fbclone-blush.vercel.app"
@@ -22,7 +22,7 @@ function ProjectData() {
         {
             name:"Tesla-clone",
             image: "https://trak.in/wp-content/uploads/2017/02/Tesla-Logo.jpg",
-            title: "Technologies used: React JS & Firebase",
+            title: "Technologies used: ReactJS & Firebase",
             desc: "Tesla clone with a beautiful landing page 7 product page with firebase-authentication ",
             github: "https://github.com/mahafuztechie/teslaclone",
             live: "https://teslaclone-44b04.web.app"
@@ -30,15 +30,15 @@ function ProjectData() {
         {
             name:"Portfolio",
             image: "abc",
-            title: "Technologies Used: React JS & Tailwind-css",
+            title: "Technologies Used: ReactJS & Tailwind-css",
             desc: "A Personal Portfolio website to showcase all my details and projects at one place.",
-            github: "abc",
+            github: "https://github.com/mahafuztechie/Portfolio-react",
             
         },
         {
             name:"Notes-app",
             image: "abc",
-            title: "Technologies used: React JS & Tailwind-css",
+            title: "Technologies used: ReactJS & Tailwind-css",
             desc: "A simple notes-app where u can maintain all your notes ",
             github: "https://github.com/mahafuztechie/Notes-app-react",
             
