@@ -12,7 +12,7 @@ function Header() {
                 <div className="flex text-white space-x-2 mb-2">
                     <a href="https://github.com/mahafuztechie" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-github"></i></a>
                     <a href="https://www.instagram.com/mahfuz.techie" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/mahafuzaadeez5" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/mahafuzaadeez5"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-facebook"></i></a>
                 </div>
                 <div className="flex flex-col items-center lg:items-start space-y-2 lg:space-y-5 ">
                     <h1 className=" text-base md:text-2xl lg:mt-4 font-bold text-gray-300">👋Hello, I'M <span className=" text-use-yellow font-extrabold">MAHAFUZ AHMED</span></h1>
@@ -32,12 +32,12 @@ function Header() {
                     <p className="text-sm text-center lg:text-lg text-use-yellow font-extralight">knack of building applications with frontend operations & some knowledge in backend </p>
                 </div>
                 <div className="flex flex-col-wrap mb-5 sm:flex space-x-6 mt-6">
-                    <Link to="contact" className="p-2 hover:no-underline text-white capitalize text-center bg-transparent border-2 border-white
+                    <Link to="contact" className="p-2  hover:no-underline text-sm lg:text-base text-white capitalize text-center bg-transparent border-2 border-white
                      hover:border-use-yellow hover:shadow-2xl transform transition duration-200 ease-in-out hover:scale-110 cursor-pointer
-                   h-8 w-28 md:h-12 md:w-40 rounded-full  focus:outline-none">hire me</Link>
-                    <a href={myResume} download="myResume" className="p-2 hover:no-underline text-white capitalize text-center bg-opacity-70 bg-use-yellow
-                    hover:shadow-2xl hover:text-black transform transition duration-200 ease-in-out hover:scale-110
-                   h-8 w-28 md:h-12 md:w-40 rounded-full focus:outline-none">get resume</a>
+                     h-10 w-28 md:h-12 md:w-40 rounded-full  focus:outline-none">hire me</Link>
+                    <a href={myResume} download="myResume" className="p-2 hover:no-underline text-sm lg:text-base text-white capitalize text-center bg-opacity-70 bg-use-yellow
+                     hover:shadow-2xl hover:text-black transform transition duration-200 ease-in-out hover:scale-110
+                     h-10 w-28 md:h-12 md:w-40 rounded-full focus:outline-none">get resume</a>
                 </div>
             </div>
 
