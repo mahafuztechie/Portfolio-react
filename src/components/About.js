@@ -7,16 +7,16 @@ function About() {
             <div className="md:flex justify-center items-center space-x-4 lg:space-x-6 mt-2
               lg:px-10 lg:px-15 pb-5 lg:mt-5  rounded-lg lg:rounded-2xl ">
                 <div className="hidden lg:flex items-center lg:mr-6">
-                    <img className="rounded bg-transparent w-full h-80" 
+                    <img className="rounded-xl bg-transparent w-full h-80" 
                     src="https://spherengopune.org/Synapse2021N/wp-content/uploads/2014/10/speaker-3.jpg" alt="" />
 
                 </div>
                 <div className="text-md bg-gray-100 lg:text-base shadow-xl flex flex-col lg:space-x-10 lg:space-y-20 space-y-10 mt-3 p-4 border lg:border-2 rounded-2xl">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deserunt quis atque consectetur quaerat? Ad, ea quidem. Laborum deserunt temporibus laudantium quis quisquam in consequatur ad molestiae labore, quae facere?</p>
+                    <p>Front end web developer with knowledge of React with redux & Nextjs, along with a knack of building applications with utmost efficiency. Strong professional with a BCA willing to be an asset for an organization.</p>
                     <ul className="space-y-6 flex flex-col pl-2">
                         <li className="text-sm lg:text-base list-disc list-outside text-yellow-600 font-bold ">Responsive Web Development</li>
                         <li className="text-sm lg:text-base list-disc list-outside text-yellow-600 font-bold ">Interactive Front End as per the Design</li>
-                        <li className="text-sm lg:text-base list-disc list-outside text-yellow-600 font-bold ">React</li>
+                        <li className="text-sm lg:text-base list-disc list-outside text-yellow-600 font-bold ">React & NextJS</li>
                         <li className="text-sm lg:text-base list-disc list-outside text-yellow-600 font-bold ">Redux for State Management</li>
                     </ul>
                 </div>

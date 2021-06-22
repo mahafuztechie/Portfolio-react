@@ -21,23 +21,22 @@ function SkillsData() {
         },
         {
             name: "React",
-            level: "64",
+            level: "66",
             icon: reactIcon
         },
         {
             name: "redux",
             level: "68",
-            
-            
+             
         },
         {
             name: "java",
-            level: "66",
+            level: "65",
             icon: javaIcon
         },
         {
             name: "sql",
-            level: "55",
+            level: "45",
             icon: sqlIcon
         },
         {
@@ -46,7 +45,7 @@ function SkillsData() {
         },
     ]
     return (
-        <div className="hidden lg:flex lg:space-x-10 items-start p-3">
+        <div className="hidden lg:grid grid-cols-4 space-y-2 place-items-center p-3">
             {languages.map(language => 
                 <Bar value={language} />
                 )}

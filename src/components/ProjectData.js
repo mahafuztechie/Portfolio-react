@@ -23,13 +23,13 @@ function ProjectData() {
             name:"Tesla-clone",
             image: "https://trak.in/wp-content/uploads/2017/02/Tesla-Logo.jpg",
             title: "Technologies used: ReactJS & Firebase",
-            desc: "Tesla clone with a beautiful landing page 7 product page with firebase-authentication ",
+            desc: "Tesla clone with a beautiful landing page & product page with firebase-authentication ",
             github: "https://github.com/mahafuztechie/teslaclone",
             live: "https://teslaclone-44b04.web.app"
         },
         {
             name:"Portfolio",
-            image: "abc",
+            image: "https://themanofletters.files.wordpress.com/2015/03/wpdevshed-portfolio.jpg",
             title: "Technologies Used: ReactJS & Tailwind-css",
             desc: "A Personal Portfolio website to showcase all my details and projects at one place.",
             github: "https://github.com/mahafuztechie/Portfolio-react",
@@ -37,7 +37,7 @@ function ProjectData() {
         },
         {
             name:"Notes-app",
-            image: "abc",
+            image: "https://i1.wp.com/www.noticiber.com/wp-content/uploads/logo-app-de-notas.png?fit=730%2C381&ssl=1",
             title: "Technologies used: ReactJS & Tailwind-css",
             desc: "A simple notes-app where u can maintain all your notes ",
             github: "https://github.com/mahafuztechie/Notes-app-react",

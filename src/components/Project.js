@@ -4,7 +4,7 @@ import React from 'react'
 function Project({image, github, live, name, title, desc}) {
 
     return (
-        <div className="flex flex-col justify-between space-y-6 bg-use-yellow hover:bg-use-blue hover:bg-opacity-10 bg-opacity-30 rounded-2xl overflow-hidden shadow-lg ">
+        <div className="flex flex-col justify-between space-y-6 bg-use-yellow hover:bg-use-blue hover:bg-opacity-10 bg-opacity-30 rounded-2xl overflow-hidden border hover:shadow-xl ">
             <img src={image} alt={`${name}-pic`}
             className=" h-24 w-full " />
             <div className="flex-col items-center justify-center pb-2 px-2 space-y-3">

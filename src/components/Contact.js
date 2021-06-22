@@ -23,8 +23,8 @@ function Contact() {
       }
 
     return (
-        <div id="contact" className="relative bg-use-blue h-screen w-screen flex-col lg:space-y-6 space-y-14">
-            <div className="space-y-8 lg:space-y-3 pt-2">
+        <div id="contact" className="relative bg-use-blue h-screen w-screen flex-col lg:space-y-6 space-y-14 py-2">
+            <div className="space-y-8 lg:space-y-3">
                 <h1 className="text-center text-use-yellow font-bold text-lg lg:text-4xl uppercase ">Contact</h1>
                 <h2 className="text-sm  lg:text-xl text-center text-gray-300
                             font-bold"><Typewriter options={{

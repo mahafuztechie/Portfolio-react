@@ -31,21 +31,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-       'waveup': "url('./images/waveup.png')",
-       'wavedown': "url('./images/wavedown.png')",
-       'wave-up': "url('./images/wave-up.png')",
-       'wave-down': "url('./images/wave-down.png')",
-       'tilttop': "url('./images/tilttop.svg')",
-       'tiltbot': "url('./images/tiltbot.svg')",
-       'wavet': "url('./images/wavet.svg')",
-       'waveb': "url('./images/waveb.svg')",
-       'nueralblue': "url('./images/neuralblue.jpg')",
-       'nueralwhite': "url('./images/neuralwhite.jpg')",
-       'white3d': "url('./images/white3d.jpg')",
-
-
-
-
+    
       }),
   },},
   variants: {

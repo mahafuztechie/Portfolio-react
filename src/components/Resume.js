@@ -3,7 +3,7 @@ import SkillsData from './SkillsData'
 import Interests from './Interests'
 import Education from './Education'
 import firebaseimg from "../images/firebase.png"
-import nextimg from "../images/next.png"
+import nextimg from "../images/nextjs-3.svg"
 import bootstrapimg from "../images/bootstrap.png"
 import OtherSkills from './OtherSkills'
 import Fade from 'react-reveal/Fade';
@@ -37,7 +37,7 @@ function Resume() {
                 </div>
                 </Fade>
                 <Fade bottom>
-                <div className=" bg-yellow-100 bg-opacity-30 h-64 rounded-lg lg:col-span-2 lg:mb-5">
+                <div className=" bg-yellow-100 bg-opacity-30 h-64 rounded-lg lg:col-span-2 lg:mb-5 overflow-hidden">
                     <h1 className="text-use-blue p-2 lg:p-4 text-lg lg:text-xl font-bold"><i class="fas fa-laptop-code text-use-yellow mr-3"></i>Skills</h1>
                         <SkillsData  />
                         <div className="hidden lg:flex items-center justify-center space-x-16 pt-4 border-t-4 border-use-blue">
