@@ -12,7 +12,7 @@ function Header() {
                 <div className="flex text-white space-x-2 mb-2">
                     <a href="https://github.com/mahafuztechie" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-github"></i></a>
                     <a href="https://www.instagram.com/mahfuz.techie" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/mahafuzaadeez5"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/mahafuzaadeez5" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-facebook"></i></a>
                 </div>
                 <div className="flex flex-col items-center lg:items-start space-y-2 lg:space-y-5 ">
                     <h1 className=" text-base md:text-2xl lg:mt-4 font-bold text-gray-300">👋 Hello, I'M <span className=" text-use-yellow font-extrabold">Mahafuz Ahmed</span></h1>
