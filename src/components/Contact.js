@@ -49,10 +49,6 @@ function Contact() {
                          className="rounded-2xl focus:outline-none p-2 w-full bg-gray-200" />
                     </div>
                     <div>
-                        <input type="text" placeholder="Subject" name="subject" required
-                         className="rounded-2xl focus:outline-none p-2 w-full bg-gray-200" />
-                    </div>
-                    <div>
                         <textarea name="message" id="" placeholder="Message..." cols="50" rows="8" required
                          className="rounded-2xl focus:outline-none p-2 w-full bg-gray-2 bg-gray-200"></textarea>
                     </div>

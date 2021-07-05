@@ -43,8 +43,8 @@ function Header() {
 
             <div className="flex items-center justify-center md:flex-1 pt-5">
                 <img className=" h-52 w-52 lg:h-80 lg:w-80 mr-4 lg:mr-6 lg:mt-6 rounded-full hover:shadow-2xl
-                 bg-transparent transform duration-1000 hover:scale-105" 
-                 src="https://spherengopune.org/Synapse2021N/wp-content/uploads/2014/10/speaker-3.jpg" alt="" />
+                 bg-transparent transform duration-1000 hover:scale-105 object-cover"
+                 src="./images/profile-pic.jpg" alt="" />
             </div>
         </div>
     )

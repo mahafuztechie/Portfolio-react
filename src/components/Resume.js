@@ -19,7 +19,7 @@ function Resume() {
                 <div className="text-xs md:text-xl  bg-yellow-100 bg-opacity-30 rounded-lg pb-2">
                     <h1 className="text-use-blue p-2 lg:p-4 text-lg lg:text-xl font-bold"><i class="fas fa-graduation-cap text-use-yellow mr-3"></i> Education</h1>
                     <div className="flex flex-col space-y-4 lg:space-y-8 font-medium pt-2 lg:mt-2 px-4">
-                       <Education college="Teachers Academy Degree College" year="2015-2018"  batch="Bachelor of Computer Apllications (B.C.A)"/>
+                       <Education college="Teachers Academy Degree College" year="2015-2018"  batch="Bachelor of Computer Applications (B.C.A)"/>
                        <Education college="Quwathul Islam Pre-University College" year="2013-2015"/>
                        <Education college="Divya Shanthi high school" year="2000-2013"/>
                     </div> 
@@ -46,25 +46,7 @@ function Resume() {
                            <OtherSkills image={bootstrapimg} name="Bootstrap"/>
                            <OtherSkills image="https://symbols.getvecta.com/stencil_97/3_tailwind-css-icon.43c02f69bf.png" name="Tailwind"/>
                         </div>
-                        <div className="lg:hidden flex justify-evenly text-sm font-semibold">
-                            <ul className="space-y-1 flex flex-col items-center">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JAVASCRIPT</li>
-                                <li>REACT</li>
-                                <li>REDUX</li>
-                                <li>JAVA</li>
-                                <li>SQL</li>
-                                <li>SPRINGBOOT</li>
-                            </ul> 
-                            <div className="border-r border-use-blue"></div> 
-                            <ul className="space-y-1 flex flex-col items-center justify-center text-use-yellow font-light">
-                                <li>FIREBASE</li>
-                                <li>NEXTJS</li>
-                                <li>BOOTSTRAP</li>
-                                <li>TAILWIND</li>
-                            </ul>
-                        </div>
+                      
                 </div>
                 </Fade>
             </div>

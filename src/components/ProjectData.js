@@ -46,8 +46,8 @@ function ProjectData() {
     ]
     return (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projectData.map(({image, github, live, name, title, desc})=> 
-            <Project image={image} github={github} live={live} name={name} title={title} desc={desc}/>
+            {projectData.map(({image, github, live, name, title, desc}, index)=> 
+            <Project key={index} image={image} github={github} live={live} name={name} title={title} desc={desc}/>
             )}
         </div>
     )

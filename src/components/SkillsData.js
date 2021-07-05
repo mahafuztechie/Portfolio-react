@@ -36,18 +36,18 @@ function SkillsData() {
         },
         {
             name: "sql",
-            level: "45",
+            level: "40",
             icon: sqlIcon
         },
         {
             name: "Springboot",
-            level: "40"
+            level: "30"
         },
     ]
     return (
-        <div className="hidden lg:grid grid-cols-4 space-y-2 place-items-center p-3">
-            {languages.map(language => 
-                <Bar value={language} />
+        <div className="grid grid-cols-2 lg:grid-cols-4 lg:space-y-2 space-y-4 pt-2 place-items-center lg:p-3">
+            {languages.map((language, index) => 
+                <Bar key={index} value={language} />
                 )}
         </div>
     )
