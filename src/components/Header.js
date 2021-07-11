@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Typewriter from "typewriter-effect"
 import myResume from "../myResume.docx"
 import { Link } from "react-scroll"
@@ -6,6 +6,10 @@ import { Link } from "react-scroll"
 
 
 function Header() {
+    const [profilePic, setProfilePic] = useState({});
+    useEffect(() => {
+            setProfilePic("./images/profile-pic.jpg");
+    }, [])
     return (
         <div className=" flex flex-wrap-reverse items-center lg:flex justify-around space-x-8 mx-auto">
             <div className=" flex flex-col items-center lg:items-start lg:mt-32 py-10 ">
@@ -44,7 +48,7 @@ function Header() {
             <div className="flex items-center justify-center md:flex-1 pt-5">
                 <img className=" h-52 w-52 lg:h-80 lg:w-80 mr-4 lg:mr-6 lg:mt-6 rounded-full hover:shadow-2xl
                  bg-transparent transform duration-1000 hover:scale-105 object-cover"
-                 src="./images/profile-pic.jpg" alt="" />
+                 src={profilePic} alt="" />
             </div>
         </div>
     )

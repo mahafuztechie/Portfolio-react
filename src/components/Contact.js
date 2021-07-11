@@ -33,11 +33,11 @@ function Contact() {
                                 delay:40,
                                 strings:[
                                     "Get in Touch 🤝",
-                                    "send me a E-Mail 📧",
+                                    "Send me an E-Mail 📧",
                                 ]
                             }}/></h2>
             </div>
-            <div className="flex items-center justify-center px-5 pt-2 pb-2">
+            <div className="flex items-center justify-center px-5 lg:pt-10 pb-2">
             
                 <form onSubmit={sendEmail} className="space-y-6">
                     <div>
@@ -62,7 +62,7 @@ function Contact() {
                     </div>
                 </form>   
             </div>  
-            <div className="absolute hidden lg:flex bottom-10 right-20 "><Link to="home" smooth={true} duration={1000}><i className="text-4xl text-yellow-600 cursor-pointer w-10 h-10 transition duration-200 ease-in-out transform hover:scale-125 fas fa-arrow-circle-up"></i></Link></div>
+            <div className="absolute hidden lg:flex bottom-20 right-20 "><Link to="home" smooth={true} duration={1000}><i className="text-4xl text-yellow-600 cursor-pointer w-10 h-10 transition duration-200 ease-in-out transform hover:scale-125 fas fa-arrow-circle-up"></i></Link></div>
             <ToastContainer position="top-left"/>
         </div>
     )

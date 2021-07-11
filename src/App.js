@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
+   
     <div className="App overflow-hidden bg-gray-100">
      <Homescreen/>
      <About/>
@@ -17,6 +18,7 @@ function App() {
      <Footer/>
    
     </div>
+  
   );
 }
 

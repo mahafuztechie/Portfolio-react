@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-function Project({image, github, live, name, title, desc}) {
+function Project({image, github, live, name, title, desc, newproj}) {
 
     return (
-        <div className="flex flex-col justify-between space-y-6 bg-use-yellow hover:bg-use-blue hover:bg-opacity-10 bg-opacity-30 rounded-2xl overflow-hidden border hover:shadow-xl ">
+        <div className="relative flex flex-col justify-between space-y-6 bg-use-yellow hover:bg-use-blue hover:bg-opacity-10 bg-opacity-30 rounded-2xl overflow-hidden border hover:shadow-xl ">
             <img src={image} alt={`${name}-pic`}
             className=" h-24 w-full " />
             <div className="flex-col items-center justify-center pb-2 px-2 space-y-3">
@@ -18,6 +18,7 @@ function Project({image, github, live, name, title, desc}) {
                     <a href={github} rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600  w-7 h-7 transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-github"></i></a>
                     {live && <a href={live} rel="noreferrer" target="_blank" className="hover:no-underline uppercase text-center text-sm text-use-blue rounded-xl px-2 py-1 hover:bg-red-600 hover:text-white">live</a>}
             </div>
+            {newproj && <span className="absolute -top-5 right-1 text-sm text-use-blue px-2 rounded-xl bg-amber-300">{newproj}</span>}
         </div>
     )
 }

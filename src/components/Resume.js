@@ -5,6 +5,7 @@ import Education from './Education'
 import firebaseimg from "../images/firebase.png"
 import nextimg from "../images/nextjs-3.svg"
 import bootstrapimg from "../images/bootstrap.png"
+import tailwindimg from "../images/tailwind-logo.png"
 import OtherSkills from './OtherSkills'
 import Fade from 'react-reveal/Fade';
 
@@ -29,10 +30,9 @@ function Resume() {
                 <div className=" bg-yellow-100 bg-opacity-30 rounded-lg">
                     <h1 className="text-use-blue p-2 lg:p-4 text-lg  lg:text-xl font-bold"><i class="fas fa-palette text-use-yellow mr-3"></i>Interests</h1>
                     <div className="flex flex-col space-y-6 mt-2 px-4">
-                       <Interests title="Browsing" content="Browsing helps me in exploring techologies & gain knowledge  & keeps me updated with what is happening around"/>
+                       <Interests title="Browsing" content="Browsing helps me in exploring technologies & gain knowledge  & keeps me updated with what is happening around"/>
                        <Interests title="" content=""/>
-                       <Interests title="Gaming" content="I like to challenge my reflexes a lot while competing in cricket games & moba games, pushing the rank and having interactive gaming sessions excites me the most.
-"/>
+                       <Interests title="Gaming" content="I like to challenge my reflexes a lot while competing in cricket games & moba games, pushing the rank and having interactive gaming sessions excites me the most."/>
                     </div>
                 </div>
                 </Fade>
@@ -44,7 +44,7 @@ function Resume() {
                            <OtherSkills image={firebaseimg} name="Firebase"/>
                            <OtherSkills image={nextimg} name="NextJS"/>
                            <OtherSkills image={bootstrapimg} name="Bootstrap"/>
-                           <OtherSkills image="https://symbols.getvecta.com/stencil_97/3_tailwind-css-icon.43c02f69bf.png" name="Tailwind"/>
+                           <OtherSkills image={tailwindimg} name="Tailwind"/>
                         </div>
                       
                 </div>

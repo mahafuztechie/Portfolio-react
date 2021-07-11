@@ -1,47 +1,51 @@
 import React from 'react'
 import Bar from './Bar'
-import { cssIcon, htmlIcon, javaIcon, javascriptIcon, reactIcon, sqlIcon } from './Skillicons'
+import {SiCss3, SiHtml5, SiJavascript, SiReact, SiRedux, SiSpring, SiJava} from  'react-icons/si'
+import {DiMysql} from  'react-icons/di'
+
 
 function SkillsData() {
     const languages = [
         {
             name: "html",
             level: "80",
-            icon: htmlIcon
+            icon: <SiHtml5 className="text-use-blue mt-1"/>
         },
         {
             name: "css",
             level: "80",
-            icon: cssIcon
+            icon: <SiCss3 className="text-use-blue mt-1"/>
         },
         {
             name: "javascript",
             level: "60",
-            icon: javascriptIcon
+            icon: <SiJavascript className="text-use-blue mt-1"/>
         },
         {
             name: "React",
-            level: "66",
-            icon: reactIcon
+            level: "70",
+            icon: <SiReact className="text-use-blue mt-1"/>
         },
         {
             name: "redux",
             level: "68",
+            icon: <SiRedux className="text-use-blue mt-1"/>
              
         },
         {
             name: "java",
             level: "65",
-            icon: javaIcon
+            icon: <SiJava className="text-use-blue mt-1"/>
         },
         {
             name: "sql",
             level: "40",
-            icon: sqlIcon
+            icon: <DiMysql className="text-use-blue mt-1 "/>
         },
         {
             name: "Springboot",
-            level: "30"
+            level: "30",
+            icon: <SiSpring className="text-use-blue mt-1"/>
         },
     ]
     return (

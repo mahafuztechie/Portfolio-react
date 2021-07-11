@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ProjectData from './ProjectData'
 
 function Projects() {
@@ -7,6 +8,7 @@ function Projects() {
             <h1 className="text-center text-use-blue font-bold text-lg lg:text-4xl uppercase ">Projects</h1>
             <div className="lg:p-5">
                 <ProjectData/>
+             
             </div>
             
         </div>
