@@ -14,8 +14,8 @@ function Nav() {
             <div className="flex space-x-6">
                 
                 {!menu && <ul className="hidden text-white lg:flex text-xs space-x-4 uppercase pt-3 lg:text-lg lg:space-x-12">
-                <li className="active hover:cursor cursor-pointer
-                text-use-yellow"><Link to="home" smooth={true} duration={1000}>Home</Link></li>
+                <li className="hover:cursor cursor-pointer
+                hover:text-use-yellow"><Link to="home" smooth={true} duration={1000}>Home</Link></li>
                 <li className="hover:cursor cursor-pointer
                 hover:text-use-yellow"><Link to="about" smooth={true} duration={1000}>About</Link></li>
                 <li className="hover:cursor cursor-pointer

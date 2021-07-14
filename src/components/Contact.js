@@ -4,6 +4,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Typewriter from "typewriter-effect"
 import { Link } from "react-scroll"
+import {FiPhoneCall} from "react-icons/fi"
+
 
 
 function Contact() {
@@ -26,6 +28,9 @@ function Contact() {
         <div id="contact" className="relative bg-use-blue h-screen w-screen flex-col lg:space-y-6 space-y-14 py-2">
             <div className="space-y-8 lg:space-y-3">
                 <h1 className="text-center text-use-yellow font-bold text-lg lg:text-4xl uppercase ">Contact</h1>
+                <div className="text-center mt-4 mb-3">
+                  <a  href="tel:917975493956" className="tracking-wide hover:no-underline text-green-500 hover:text-green-700 font-semibold"><FiPhoneCall className="inline text-2xl text-center text-white rounded-full p-1 bg-green-700 "/> : 91-7975493956</a>
+                </div>
                 <h2 className="text-sm  lg:text-xl text-center text-gray-300
                             font-bold"><Typewriter options={{
                                 autoStart:true,
@@ -37,6 +42,8 @@ function Contact() {
                                 ]
                             }}/></h2>
             </div>
+           
+   
             <div className="flex items-center justify-center px-5 lg:pt-10 pb-2">
             
                 <form onSubmit={sendEmail} className="space-y-6">

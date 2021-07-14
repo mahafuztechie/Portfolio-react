@@ -21,6 +21,15 @@ function ProjectData() {
             live: "https://amazonclone-theta.vercel.app"
         },
         {
+            name:"Hulu-clone",
+            image: "/images/hulu-image.jpg",
+            title: "Technologies used: ReactJS, NextJS & Tailwind-css",
+            desc: "hulo clone where all movies & shows are fetched from tmdb api & are filtered & displayed according to category ",
+            github: "https://github.com/mahafuztechie/hulu-clone",
+            live: "https://hulu-clone-omega-five.vercel.app",
+            newproj: "new"
+        },
+        {
             name:"Facebook-clone",
             image: "/images/facebook_image.png",
             title: "Technologies used: ReactJS, NextJS, Firebase & Tailwind-css",
@@ -51,10 +60,12 @@ function ProjectData() {
             desc: "A simple notes-app where u can maintain all your notes ",
             github: "https://github.com/mahafuztechie/Notes-app-react",
             
-        }
+        },
+        
+
     ]
     return (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className=" grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {projectData.map(({image, github, live, name, title, desc, newproj}, index)=> 
             <Project key={index} image={image} github={github} live={live} name={name} title={title} desc={desc} newproj={newproj}/>
             )}

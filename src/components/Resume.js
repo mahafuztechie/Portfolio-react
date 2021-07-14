@@ -39,8 +39,8 @@ function Resume() {
                 <Fade bottom>
                 <div className=" bg-yellow-100 bg-opacity-30 h-64 rounded-lg lg:col-span-2 lg:mb-5 overflow-hidden">
                     <h1 className="text-use-blue p-2 lg:p-4 text-lg lg:text-xl font-bold"><i class="fas fa-laptop-code text-use-yellow mr-3"></i>Skills</h1>
-                        <SkillsData  />
-                        <div className="hidden lg:flex items-center justify-center space-x-16 pt-4 border-t-4 border-use-blue">
+                        <SkillsData />
+                        <div className="flex items-center justify-center  lg:gap-8 lg:pt-4 border-t-4 border-use-blue">
                            <OtherSkills image={firebaseimg} name="Firebase"/>
                            <OtherSkills image={nextimg} name="NextJS"/>
                            <OtherSkills image={bootstrapimg} name="Bootstrap"/>

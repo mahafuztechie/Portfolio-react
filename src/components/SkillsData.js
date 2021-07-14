@@ -49,7 +49,7 @@ function SkillsData() {
         },
     ]
     return (
-        <div className="grid grid-cols-2 lg:grid-cols-4 lg:space-y-2 space-y-4 pt-2 place-items-center lg:p-3">
+        <div className="grid grid-cols-2 lg:grid-cols-4  pt-2 place-items-center lg:p-3">
             {languages.map((language, index) => 
                 <Bar key={index} value={language} />
                 )}
