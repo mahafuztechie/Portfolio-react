@@ -43,7 +43,7 @@ function Header() {
                      h-10 w-28 md:h-12 md:w-40 rounded-full  focus:outline-none">hire me</Link>
                     <a href={myResume} download="myResume" className="p-2 hover:no-underline text-sm lg:text-base text-use-blue capitalize text-center bg-opacity-70 bg-use-yellow
                      hover:shadow-2xl hover:text-white transform transition duration-200 ease-in-out hover:scale-110
-                     h-10 w-28 md:h-12 md:w-40 rounded-full focus:outline-none">resume<FiDownload className="text-lg text-white animate-bounce inline m-2"/></a>
+                     h-10 w-28 md:h-12 md:w-40 rounded-full focus:outline-none">resume<FiDownload className="text-xs md:text-lg text-white animate-bounce inline ml-2 mt-1"/></a>
                 </div>
             </div>
 
