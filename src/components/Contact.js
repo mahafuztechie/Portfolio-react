@@ -44,7 +44,7 @@ function Contact() {
             </div>
            
    
-            <div className="flex items-center justify-center px-5 lg:pt-10 pb-2">
+            <div className="flex items-center justify-center px-5 lg:pt-5 pb-2">
             
                 <form onSubmit={sendEmail} className="space-y-6">
                     <div>
