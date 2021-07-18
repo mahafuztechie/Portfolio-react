@@ -3,10 +3,10 @@ import React, { useEffect, useState } from 'react'
 function About() {
     const [aboutImage, setAboutImage] = useState({});
     useEffect(() => {
-            setAboutImage("/images/about-pic.jpg");
+            setAboutImage("/images/about-pic.webp");
     }, [])
     return (
-        <div id="about" className="overflow-hidden lg:h-screen w-screen flex flex-col items-center border-t border-2 mt-5 p-2">
+        <div id="about" className="overflow-hidden lg:h-screen w-screen flex flex-col items-center  mt-5 p-2">
             <h1 className=" text-use-blue lg:mt-5 font-bold text-lg lg:text-4xl">ABOUT ME</h1>
             <div className="md:flex justify-center items-center space-x-4 lg:space-x-6 lg:mt-10
               lg:px-10 lg:px-15 pb-5 rounded-lg lg:rounded-2xl ">

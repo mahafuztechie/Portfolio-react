@@ -2,13 +2,15 @@ import React, { useEffect, useState } from 'react'
 import Typewriter from "typewriter-effect"
 import myResume from "../myResume.docx"
 import { Link } from "react-scroll"
+import {FiDownload} from  'react-icons/fi'
+
 
 
 
 function Header() {
     const [profilePic, setProfilePic] = useState({});
     useEffect(() => {
-            setProfilePic("./images/profile-pic.jpg");
+            setProfilePic("./images/profile-pic.webp");
     }, [])
     return (
         <div className=" flex flex-wrap-reverse items-center lg:flex justify-around space-x-8 mx-auto">
@@ -39,9 +41,9 @@ function Header() {
                     <Link to="contact" className="p-2  hover:no-underline text-sm lg:text-base text-white capitalize text-center bg-transparent border-2 border-white
                      hover:border-use-yellow hover:shadow-2xl transform transition duration-200 ease-in-out hover:scale-110 cursor-pointer
                      h-10 w-28 md:h-12 md:w-40 rounded-full  focus:outline-none">hire me</Link>
-                    <a href={myResume} download="myResume" className="p-2 hover:no-underline text-sm lg:text-base text-white capitalize text-center bg-opacity-70 bg-use-yellow
-                     hover:shadow-2xl hover:text-black transform transition duration-200 ease-in-out hover:scale-110
-                     h-10 w-28 md:h-12 md:w-40 rounded-full focus:outline-none">get resume</a>
+                    <a href={myResume} download="myResume" className="p-2 hover:no-underline text-sm lg:text-base text-use-blue capitalize text-center bg-opacity-70 bg-use-yellow
+                     hover:shadow-2xl hover:text-white transform transition duration-200 ease-in-out hover:scale-110
+                     h-10 w-28 md:h-12 md:w-40 rounded-full focus:outline-none">resume<FiDownload className="text-lg text-white animate-bounce inline m-2"/></a>
                 </div>
             </div>
 
