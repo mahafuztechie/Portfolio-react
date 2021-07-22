@@ -4,7 +4,7 @@ import Nav from './Nav'
 
 function Homescreen() {
     return (
-        <div id="home" className="overflow-hidden relative flex flex-col lg:h-screen w-screen bg-use-blue bg-cover outline-none border-none mx-auto">
+        <div id="home" className="overflow-hidden relative flex flex-col lg:h-screen w-screen bg-use-blue bg-cover  mx-auto">
            <Nav/>
            <Header/>   
            {/* <svg id="Layer_1"  className="overflow-hidden absolute bottom-0 bg-no-repeat" fill="#FFFFFF" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 57.01"><defs></defs><title>wavy-loops-bottom</title><path class="cls-1" d="M500,200H0V173a281.22,281.22,0,0,1,89-14c34.3.27,52.92,7,75,11,85.69,15.67,118.55-27.92,205-27,30.2.32,75.43,6.17,131,35" transform="translate(0 -142.99)"/></svg> */}

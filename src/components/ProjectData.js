@@ -1,7 +1,8 @@
 import React from 'react'
 import Project from './Project'
 
-function ProjectData() {
+function ProjectData({sliceNum}) {
+    
     const projectData = [
         {
             name:"GoogleDocs-clone",
@@ -65,8 +66,8 @@ function ProjectData() {
 
     ]
     return (
-        <div className=" grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {projectData.map(({image, github, live, name, title, desc, newproj}, index)=> 
+        <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {projectData.slice(0, sliceNum).map(({image, github, live, name, title, desc, newproj}, index)=> 
             <Project key={index} image={image} github={github} live={live} name={name} title={title} desc={desc} newproj={newproj}/>
             )}
         </div>
