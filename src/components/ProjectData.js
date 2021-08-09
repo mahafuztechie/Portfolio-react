@@ -5,12 +5,12 @@ function ProjectData({sliceNum}) {
     
     const projectData = [
         {
-            name:"GoogleDocs-clone",
-            image: "/images/google-docs-image.webp",
-            title: "Technologies used: ReactJS, NextJS, Firebase & Tailwind-css",
-            desc: "GoogleDocs-clone website where a user can login with Google & create & maintain documents with a Rich TextEditor. Firebase used to store & maintain data",
-            github: "https://github.com/mahafuztechie/google-docs-clone",
-            live: "https://google-docs-clone-sigma.vercel.app/",
+            name:"Airbnb-clone",
+            image: "/images/airbnb.webp",
+            title: "Technologies used: ReactJS, NextJS, & Tailwind-css",
+            desc: "Airbnb-clone website with a beautiful design & integration of Calender Range picker & Map integrated using mapbox ",
+            github: "https://github.com/mahafuztechie/airbnb-clone",
+            live: "https://airbnb-clone-dun-seven.vercel.app",
             newproj: "new"
         },
         {
@@ -29,6 +29,14 @@ function ProjectData({sliceNum}) {
             github: "https://github.com/mahafuztechie/hulu-clone",
             live: "https://hulu-clone-omega-five.vercel.app",
             newproj: "new"
+        },
+        {
+            name:"GoogleDocs-clone",
+            image: "/images/google-docs-image.webp",
+            title: "Technologies used: ReactJS, NextJS, Firebase & Tailwind-css",
+            desc: "GoogleDocs-clone website where a user can login with Google & create & maintain documents with a Rich TextEditor. Firebase used to store & maintain data",
+            github: "https://github.com/mahafuztechie/google-docs-clone",
+            live: "https://google-docs-clone-sigma.vercel.app",
         },
         {
             name:"Facebook-clone",

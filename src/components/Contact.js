@@ -1,10 +1,9 @@
 import React from 'react'
 import emailjs from "emailjs-com"
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Typewriter from "typewriter-effect"
-import { Link } from "react-scroll"
-import {FiPhoneCall} from "react-icons/fi"
+
 
 
 
@@ -26,12 +25,13 @@ function Contact() {
       }
 
     return (
-        <div id="contact" className="relative bg-use-blue h-screen w-screen flex-col lg:space-y-6 space-y-14 py-2">
+        <div id="contact" className="relative overflow-hidden bg-use-blue h-screen w-screen flex-col lg:space-y-4 space-y-8 py-1">
 
-            <div className="space-y-8 lg:space-y-3">
+            <div className="space-y-8 lg:space-y-1">
                 <h1 className="text-center text-use-yellow font-bold text-lg lg:text-4xl uppercase ">Contact</h1>
-                <div className="text-center mt-4 mb-3">
-                  <a  href="tel:917975493956" className="tracking-wide hover:no-underline text-green-500 hover:text-green-700 font-semibold"><FiPhoneCall className="inline text-2xl text-center text-white rounded-full p-1 bg-green-700 "/> : 91-7975493956</a>
+                <div className="text-center mt-4 mb-3 flex-col items-center justify-center gap-2">
+                  <a  href="tel:917975493956" className="tracking-wide inline-block hover:no-underline text-gray-400 text-sm">+917975493956</a><br />
+                  <a  href="mailto:mahafuzaadeez5@example.com" className="tracking-wide hover:no-underline text-gray-400 text-sm inline-block">mahafuzaadeez5@gmail.com</a>
                 </div>
                 <h2 className="text-sm  lg:text-xl text-center text-gray-300
                             font-bold"><Typewriter options={{
@@ -46,7 +46,7 @@ function Contact() {
             </div>
            
    
-            <div className="flex items-center justify-center px-5 lg:pt-5 pb-2">
+            <div className="flex items-center justify-center px-5 pb-2">
             
                 <form onSubmit={sendEmail} className="space-y-6">
                     <div>
@@ -65,14 +65,14 @@ function Contact() {
                         <button type="submit"  className="rounded-full text-use-blue hover:text-white shadow-xl focus:outline-none bg-yellow-600 p-2">Send <i class="fas fa-paper-plane"></i></button>
                         <div className="flex text-white space-x-2 mb-2">
                             <a href="https://github.com/mahafuztechie" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/mahafuz-ahmed-39876812a" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-linkedin"></i></a>
                             <a href="https://www.instagram.com/mahfuz.techie" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-instagram"></i></a>
                             <a href="https://www.facebook.com/mahafuzaadeez5" rel="noreferrer" target="_blank"><i className="text-xl text-use-blue hover:text-amber-600 bg-white w-7 h-7 shadow-xl transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-facebook"></i></a>
                         </div>
                     </div>
                 </form>   
             </div>  
-            <div className="absolute hidden lg:flex bottom-20 right-20 "><Link to="home" smooth={true} duration={1000}><i className="text-4xl text-yellow-600 cursor-pointer w-10 h-10 transition duration-200 ease-in-out transform hover:scale-125 fas fa-arrow-circle-up"></i></Link></div>
-            <ToastContainer position="top-left"/>
+         
         </div>
     )
 }

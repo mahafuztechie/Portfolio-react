@@ -18,17 +18,17 @@ function SkillsData() {
         },
         {
             name: "javascript",
-            level: "60",
+            level: "71",
             icon: <SiJavascript className="text-use-blue mt-1"/>
         },
         {
             name: "React",
-            level: "70",
+            level: "65",
             icon: <SiReact className="text-use-blue mt-1"/>
         },
         {
             name: "redux",
-            level: "68",
+            level: "58",
             icon: <SiRedux className="text-use-blue mt-1"/>
              
         },

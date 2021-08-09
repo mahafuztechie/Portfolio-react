@@ -3,7 +3,7 @@ import SkillsData from './SkillsData'
 import Interests from './Interests'
 import Education from './Education'
 import firebaseimg from "../images/firebase.png"
-import nextimg from "../images/nextjs-3.svg"
+import nextjs from "../images/nextjs.svg"
 import bootstrapimg from "../images/bootstrap.png"
 import tailwindimg from "../images/tailwind-logo.png"
 import OtherSkills from './OtherSkills'
@@ -42,7 +42,7 @@ function Resume() {
                         <SkillsData />
                         <div className="flex items-center justify-center  lg:gap-8 lg:pt-4 border-t-4 border-use-blue">
                            <OtherSkills image={firebaseimg} name="Firebase"/>
-                           <OtherSkills image={nextimg} name="NextJS"/>
+                           <OtherSkills image={nextjs} name="NextJS"/>
                            <OtherSkills image={bootstrapimg} name="Bootstrap"/>
                            <OtherSkills image={tailwindimg} name="Tailwind"/>
                         </div>
