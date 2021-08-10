@@ -31,7 +31,7 @@ function Contact() {
                 <h1 className="text-center text-use-yellow font-bold text-lg lg:text-4xl uppercase ">Contact</h1>
                 <div className="text-center mt-4 mb-3 flex-col items-center justify-center gap-2">
                   <a  href="tel:917975493956" className="tracking-wide inline-block hover:no-underline text-gray-400 text-sm">+917975493956</a><br />
-                  <a  href="mailto:mahafuzaadeez5@example.com" className="tracking-wide hover:no-underline text-gray-400 text-sm inline-block">mahafuzaadeez5@gmail.com</a>
+                  <a  href="mailto:mahafuzaadeez5@gmail.com" className="tracking-wide hover:no-underline text-gray-400 text-sm inline-block">mahafuzaadeez5@gmail.com</a>
                 </div>
                 <h2 className="text-sm  lg:text-xl text-center text-gray-300
                             font-bold"><Typewriter options={{

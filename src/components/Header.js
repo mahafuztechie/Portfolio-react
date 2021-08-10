@@ -24,15 +24,15 @@ function Header() {
                 </div>
                 <div className="flex flex-col items-center lg:items-start space-y-2 lg:space-y-5 ">
                     <h1 className=" text-base md:text-xl lg:mt-4 font-bold text-gray-300"><span className="text-2xl">👋</span> Hello, I'M <span className=" text-use-yellow md:text-3xl font-extrabold">Mahafuz Ahmed</span></h1>
-                    <h2 className="text-xl  lg:text-5xl text-gray-300
-                      font-bold"><Typewriter options={{
+                    <h2 className="text-2xl  lg:text-6xl text-gray-300
+                      font-extrabold font-marvel"><Typewriter options={{
                          autoStart:true,
                          loop:true,
                          delay:40,
                          strings:[
-                             "I'M a Front-End Dev 💻",
+                             "I'M a Front-End Dev 💻 ",
                              "I'M a React dev 😎",
-                             "I'M a Tech Enthusiast 🧡",
+                             "I'M a Tech Enthusiast ❤",
                          ]
                       
                     }}/>

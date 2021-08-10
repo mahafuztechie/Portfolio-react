@@ -5,7 +5,7 @@ import { Link } from "react-scroll"
 function Nav() {
     const [menu, setmenu] = useState(false)
  
-   
+    
     return (
                <div className="absolute flex lg:justify-around p-3 justify-between w-screen top:2">
             <div>
