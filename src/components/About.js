@@ -15,8 +15,9 @@ function About() {
                     src={aboutImage} alt="" />
 
                 </div>
-                <div className="text-md bg-gray-100 lg:text-base shadow-xl flex flex-col lg:space-x-10 lg:space-y-20 space-y-10 mt-3 p-4 border lg:border-2 rounded-2xl">
-                    <p>Front end web developer with knowledge of React with redux & Nextjs, along with a knack of building applications with utmost efficiency. Strong professional with a BCA willing to be an asset for an organization.</p>
+                <div className="text-md bg-gray-100 lg:text-base shadow-xl flex flex-col lg:space-x-10  space-y-10 mt-3 mr-3 p-4 border lg:border-2 rounded-2xl">
+                    <p>I'M a Front end web developer based in Bangalore. I have gained knowledge & skills in React, Redux & Nextjs, along with a knack of building applications with utmost efficiency. Strong professional with a BCA willing to be an asset for an organization.</p>
+                    <span className="font-semibold text-use-blue font-marvel text-2xl">Why me?</span>
                     <ul className="space-y-6 flex flex-col pl-2">
                         <li className="text-sm lg:text-base list-disc list-outside text-yellow-600 font-bold ">Responsive Web Development</li>
                         <li className="text-sm lg:text-base list-disc list-outside text-yellow-600 font-bold ">Interactive Front End as per the Design</li>
