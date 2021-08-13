@@ -34,7 +34,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-    
+     
       }),
   },},
   variants: {
