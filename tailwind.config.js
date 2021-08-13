@@ -21,16 +21,8 @@ module.exports = {
       red: colors.rose,
       amber: colors.amber,
       orange: colors.orange,
-      green: colors.green,
-      teal: colors.teal,
       amber: colors.amber,
-      cyan: colors.cyan,
-      lightblue: colors.lightBlue,
-      truegray: colors.trueGray,
-      warmgray: colors.warmGray,
-      yellow:colors.yellow,
-      rose:colors.rose,
-      
+      yellow:colors.yellow, 
     },
     extend: {
       backgroundImage: theme => ({
