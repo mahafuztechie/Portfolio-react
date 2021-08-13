@@ -41,7 +41,7 @@ function Header() {
                     <Link to="contact" className="p-2  hover:no-underline text-sm lg:text-base text-white capitalize text-center bg-transparent border-2 border-white
                      hover:border-use-yellow hover:shadow-2xl transform transition duration-200 ease-in-out hover:scale-110 cursor-pointer
                      h-10 w-28 md:h-12 md:w-40 rounded-full  focus:outline-none">hire me</Link>
-                    <a href={myResume} download="myResume" className="p-2 hover:no-underline text-sm lg:text-base text-use-blue capitalize text-center bg-opacity-90 bg-use-yellow
+                    <a href={myResume} download="myResume" className="p-2 hover:no-underline text-sm lg:text-base text-use-blue capitalize text-center bg-opacity-70 bg-use-yellow
                      hover:shadow-2xl hover:text-white transform transition duration-200 ease-in-out hover:scale-110
                      h-10 w-28 md:h-12 md:w-40 rounded-full focus:outline-none">resume<FiDownload className="text-xs md:text-lg text-white inline ml-2 "/></a>
                 </div>
