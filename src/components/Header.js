@@ -8,7 +8,7 @@ import {FiDownload} from  'react-icons/fi'
 
 
 function Header() {
-    const [profilePic, setProfilePic] = useState("./images/4.webp");
+    const [profilePic, setProfilePic] = useState("./images/5.webp");
   
     return (
         <div className=" flex flex-wrap-reverse items-center lg:flex justify-around space-x-8 mx-auto">
@@ -21,7 +21,7 @@ function Header() {
 
                 </div>
                 <div className="flex flex-col items-center lg:items-start space-y-2 lg:space-y-5 ">
-                    <h1 className=" text-base md:text-xl lg:mt-4 font-bold text-gray-300"><span className="lg:text-2xl">👋</span> Hello, I'M <span className=" text-use-yellow md:text-3xl font-extrabold">Mahafuz Ahmed</span></h1>
+                    <h1 className=" text-base md:text-2xl lg:mt-4 font-marvel font-extrabold text-gray-300"><span className="lg:text-2xl">👋</span>Hello, I'm <span className=" text-use-yellow md:text-3xl font-extrabold font-poppins">Mahafuz Ahmed</span></h1>
                     <h2 className="text-2xl  lg:text-6xl text-gray-300
                       font-extrabold font-marvel"><Typewriter options={{
                          autoStart:true,
@@ -48,7 +48,7 @@ function Header() {
             </div>
 
             <div className="flex items-center justify-center md:flex-1 pt-5">
-                <img className=" h-52 w-52 lg:h-80 lg:w-80 mr-4 lg:mr-6 lg:mt-6 rounded-full hover:shadow-2xl
+                <img className="h-52 w-52 lg:h-80 lg:w-80 mr-4 lg:mr-6 lg:mt-6 rounded-full hover:shadow-2xl
                  bg-transparent transform duration-1000 hover:scale-105 object-cover"
                  src={profilePic} alt="" />
             </div>

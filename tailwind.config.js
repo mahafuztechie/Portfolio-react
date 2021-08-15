@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'marvel':['Marvel', 'Poppins', 'sans-serif'],
+      'poppins':['Poppins', 'sans-serif'],
      },
     colors: {
       transparent: 'transparent',

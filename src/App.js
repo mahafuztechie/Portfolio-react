@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
 import FadeLoader from "react-spinners/FadeLoader";
 
 function App() {
-  const [loading, setLoading] =  useState(false)
+  const [loading, setLoading] =  useState(false);
  
   useEffect(() => {
     setLoading(true)

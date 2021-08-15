@@ -23,7 +23,7 @@ function SkillsData() {
         },
         {
             name: "React",
-            level: "65",
+            level: "69",
             icon: <SiReact className="text-use-blue mt-1"/>
         },
         {
